@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto Final Precálculo</title>
+    <link rel="icon" href="logo.ico">
+
+
+    <!--SLIDER-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--ESTILOS-->
+        <link rel="stylesheet" href="css/Style.css">
+
+    <!--FUENTES-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,500;1,800&display=swap" rel="stylesheet">
+
+  </head>
+
+<body>
+
+
+
+
+<!--SLIDER-->
+<section class="slide" id="slider">
+  <div class="slide-wrap">
+      <ul class="slider1">
+          <li id="1"><img src="slider/1.PNG" alt="" class="img-slider"></li>
+        
+      </ul>
+    </div>
+</section>
+
+      <!--SCRIPTS-->
+      <script>
+          $(document).ready(function(){
+            $('.slider1').bxSlider({
+              mode: 'fade',
+            });
+           
+          });
+        </script>
+
+
+</body>
+
+
+</html>
